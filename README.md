@@ -27,6 +27,7 @@ Nazarena Wambura.</br>
 * Install python extension in code editor(VScode) to run python modules easily.
 * Run `python3.9 -m venv --without-pip virtual` in terminal to install virtual environment.
 * Run `source virtual/bin/activate` to activate and `.../deactivate` to deactivate virtual env.
+* Run `curl https://bootstrap.pypa.io/get-pip.py | python` to install pip in virtual env.
 * Run `pip install flask` in terminal to install flask. 
 * To deploy on heroku, you will need to install/do the following:
    - outline dependencies `pip freeze`  
