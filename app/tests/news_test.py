@@ -1,11 +1,14 @@
 import unittest
-from ..models import Articles
+# from ..models import Articles
 
-class NewsTest(unittest.TestCase):
+class ArticlesTest(unittest.TestCase): #Test Class to test the behaviour of the Articles class
     def setUp(self):
-        self.articles = Articles(
-            "Techcrunch", 
-            "Steve Njuguna", 
+        '''
+        Set up method that will run before every Test
+        '''
+        self.article = Articles(
+            "WomenInBiz", 
+            "Nazarena Wambura", 
             "Nike acquires NFT collectibles studio RTFKT", 
             "Nike is taking a plunge deeper into the world of crypto collectibles, announcing that they’re acquiring the NFT studio RTFKT (pronounced “artifact”). The acquisition announcement ...", 
             "https://techcrunch.com/2021/12/13/nike-acquires-nft-collectibles-studio-rtfkt/", 
@@ -14,7 +17,9 @@ class NewsTest(unittest.TestCase):
         )
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.articles, Articles))
+        self.assertTrue(isinstance(self.article, Articles))
 
 if __name__ == "__main__":
     unittest.main()
+
+from ..models import Articles    
