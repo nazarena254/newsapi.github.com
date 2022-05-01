@@ -8,6 +8,7 @@ class Config:
     NEWS_BASE_SOURCE = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'
 
     API_KEY = "37a78df4920142b683f679fffd728ab9"
+    SECRET_KEY ="renahwambura"
 class ProdConfig(Config):
     pass
 
