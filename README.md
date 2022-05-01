@@ -1,8 +1,8 @@
 # newsapi
 ### It is a python web application that allows users to view news, select a news source and see all news articles from the selected news source. 
 
-### Homepage
-<!-- ![](./app/static/assets/images/WatchlistApi.png "newsapp homepage") -->
+### NewsHub Homepage
+<!-- ![](./app/static/images/newshub.png "newsapp homepage") -->
 
 ## Description
 newsapi web application is built using Python framework (Flask) and NEWS API. The app displays information about news articles from popular sources, top headlines around the world, provides new categories and the various sources available.
@@ -28,6 +28,7 @@ Nazarena Wambura.</br>
 * Run `python3.9 -m venv --without-pip virtual` in terminal to install virtual environment.
 * Run `source virtual/bin/activate` to activate and `.../deactivate` to deactivate virtual env.
 * Run `curl https://bootstrap.pypa.io/get-pip.py | python` to install pip in virtual env.
+* Run `pip install newsapi-python` to install python client library that integrates News API into my python application
 * Run `pip install flask` in terminal to install flask. 
 * To deploy on heroku, you will need to install/do the following:
    - outline dependencies `pip freeze`  

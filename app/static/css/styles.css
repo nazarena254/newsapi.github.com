@@ -1,8 +1,8 @@
-
 * {
-    font-family:'Overpass', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1e1e21;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Aclonica', sans-serif;   
+    font-family: 'Righteous', cursive;  */
 }
 
 p{
@@ -28,9 +28,15 @@ a:hover {
 }
 
 .navbar.navbar-dark .nav-item .nav-link { 
-    color: #fff!important; 
     background-color: #000;
 } 
+.mynavitems{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px; 
+}
+#category1{
+    color: rgb(10, 167, 240);
+}
 
 .navbar.navbar-dark .nav-item .nav-link:hover { 
     color: #fff!important; 
@@ -38,11 +44,12 @@ a:hover {
 }
 
 .navbar {
-    background-color: rgb(58, 57, 57)!important;
+    background-color: #000!important;
 }
 
 .navbar-nav {
     background-color: #000;
+    font-family: 'Aclonica', sans-serif;
 }
 
 .navbar-brand {
@@ -52,16 +59,6 @@ a:hover {
 .lg {
     background-color: #000;
     font-size: xx-large;
-}
-
-h1 {
-    font-size: 33px;
-    color: #dfdcd9;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #dfdcd9;
 }
 
 .author {
@@ -86,13 +83,16 @@ h2 {
     border-radius: 10px;
     margin-top: 15px;
 }
-
 .img {
     width: 100%;
 }
 
-.image-fluid {
-    height: 18em;
+#homecardimg{
+    height:220px ;
+}
+
+.card-img{
+    height: 280px;
 }
 
 .cardfooter {
@@ -118,7 +118,11 @@ h2 {
 }
 
 .logo {
-    color: #dd0000;
+    font-size: 25px; 
+    color: rgb(5, 146, 228); 
+    font-weight: bolder; 
+    letter-spacing: 1px; 
+    font-family: 'Aclonica', sans-serif;
     background-color: #000;
 }
 
@@ -131,33 +135,22 @@ h2 {
 }
 
 .footer {
-    background-color: #000;
-    padding-top: 20px;
-    padding-bottom: 15px;
-}
-
-.footer-text {
-    background-color: #000;
-    margin-bottom: 0px;
+    color: white; 
+    padding: 4px 0px; 
+    margin-bottom: 5px;
 }
 
 .dropdown-menu {
-    background-color: #1e1e21;
+    background-color: black;
 }
 
 .dropdown-item {
-    color: #fff;
+    color: rgb(11, 102, 238);
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px; 
 }
 
 .dropdown-item:hover {
     color: #fff;
-    background-color: #26262a;
-}
-
-.published {
-    background-color: #26262a;
-}
-
-.card-footer {
-    background-color: #26262a;
+    background-color: #505052;
 }
