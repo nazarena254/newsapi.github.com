@@ -1,5 +1,6 @@
 from distutils.log import DEBUG
 
+# we assign values to configuration variables that will be used by the app Eg ApiKey
 class Config: 
     pass  
     # NEWS_BASE_URL_SOURCES = 'https://newsapi.org/v2/top-headlines/sources?apiKey={}'
