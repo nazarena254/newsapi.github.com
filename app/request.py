@@ -2,8 +2,8 @@ from .config import Config
 import urllib.request,json
 from .models import Articles
 from .models import Sources
-# from newsapi.newsapi_client import NewsApiClient
-from newsapi import NewsApiClient
+from newsapi.newsapi_client import NewsApiClient
+# from newsapi import NewsApiClient
 
 #The file makes requests to Api, request object holds all incoming data in flask frm the request
 api_key=None
