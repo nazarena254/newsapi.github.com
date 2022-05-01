@@ -2,7 +2,7 @@
 ### It is a python web application that allows users to view news, select a news source and see all news articles from the selected news source. 
 
 ### NewsHub Homepage
-<!-- ![](./app/static/images/newsapphub.png "newsapp homepage") -->
+![](./app/static/images/newsapphub.png "newsapp homepage")
 
 ## Description
 newsapi web application is built using Python framework (Flask) and NEWS API. The app displays information about news articles from popular sources, top headlines around the world, provides new categories and the various sources available.
