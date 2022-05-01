@@ -27,7 +27,6 @@ def publishedArticles():
     img = []
     p_date = []
     url = []
-
     for i in range(len(all_articles)):
         article = all_articles[i]
 
@@ -40,9 +39,39 @@ def publishedArticles():
         url.append(article['url'])
 
         article_object = Articles(source, title, desc, author, img, p_date, url)
-
         articles_results.append(article_object)
-
         contents = zip(source, title, desc, author, img, p_date, url)
-
     return  contents
+
+def topHeadlines():
+    newsapi = NewsApiClient(api_key= Config.API_KEY)
+
+    top_headlines = newsapi.get_top_headlines(sources= 'cnn, reuters, cnbc, techcrunch, the-verge, gizmodo, the-next-web, techradar, recode, ars-technica')
+
+    all_headlines = top_headlines['articles']
+
+    articles_results = []
+
+    source = []
+    title = []
+    desc = []
+    author = []
+    img = []
+    p_date = []
+    url = []
+
+    for i in range(len(all_headlines)):
+        headline = all_headlines[i]
+
+        source.append(headline['source'])
+        title.append(headline['title'])
+        desc.append(headline['description'])
+        author.append(headline['author'])
+        img.append(headline['urlToImage'])
+        p_date.append(headline['publishedAt'])
+        url.append(headline['url'])
+
+        article_object = Articles(source, title, desc, author, img, p_date, url)
+        articles_results.append(article_object)
+        contents = zip(source, title, desc, author, img, p_date, url)
+    return contents   
