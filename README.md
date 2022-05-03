@@ -19,7 +19,7 @@ Nazarena Wambura.</br>
 
 ## Behaviour Driven Development / BDD
 * Given the user opens the live link, various news sources and a navbar on the homepage can be seen on the web application.
-* When user selects a news source he will see all news articles, image, description and the time a news article was created in the application.
+* When user selects a news source he will see all news articles, image, description and the time a news article was created. Moreover, he can choose to view other news For example; science, sports, business, entertainment...etc on the "news category" dropdown menu.
 * Then the user can also click on an article and read the full article on the source website
 
 ## Installed packages
@@ -36,7 +36,7 @@ Nazarena Wambura.</br>
    - add dependencies in requirements.txt file `pip freeze > requirements.txt`
    - heroku cli `npm install -g heroku`
    - gunicorn  `python3.9 -m pip install gunicorn`
-   - nano  `sudo apt install nano`
+   - nano(optional) `sudo apt install nano` 
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
