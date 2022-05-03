@@ -46,7 +46,7 @@ Nazarena Wambura.</br>
 * work on it.
 
 ## License
-Distributed under [MIT license]().</br>
+Distributed under [MIT license](https://github.com/nazarena254/newsapi.github.com/blob/main/LICENSE).</br>
 Copyright (c) 2022 Nazarena Wambura
 
 ## Support and Contact
